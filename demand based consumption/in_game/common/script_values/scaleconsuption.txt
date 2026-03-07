@@ -1,0 +1,1218 @@
+horses_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:horses)"
+			}
+			
+			add = {
+				value = "default_price(goods:horses)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+horses_balance_2 = {
+			add = {
+				value = horses_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+coal_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:coal)"
+			}
+			
+			add = {
+				value = "default_price(goods:coal)"
+			} }
+	min = 0
+	multiply = 2.5
+}
+
+coal_balance_2 = {
+			add = {
+				value = coal_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+goods_gold_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:goods_gold)"
+			}
+			
+			add = {
+				value = "default_price(goods:goods_gold)"
+			} }
+	min = 0
+	multiply = 0.5
+}
+
+goods_gold_balance_2 = {
+			add = {
+				value = goods_gold_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+silver_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:silver)"
+			}
+			
+			add = {
+				value = "default_price(goods:silver)"
+			} }
+	min = 0
+	multiply = 0.625
+}
+
+silver_balance_2 = {
+			add = {
+				value = silver_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+incense_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:incense)"
+			}
+			
+			add = {
+				value = "default_price(goods:incense)"
+			} }
+	min = 0
+	multiply = 2
+}
+
+incense_balance_2 = {
+			add = {
+				value = incense_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+tea_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:tea)"
+			}
+			
+			add = {
+				value = "default_price(goods:tea)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+tea_balance_2 = {
+			add = {
+				value = tea_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+cocoa_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:cocoa)"
+			}
+			
+			add = {
+				value = "default_price(goods:cocoa)"
+			} }
+	min = 0
+	multiply = 1.25
+}
+
+cocoa_balance_2 = {
+			add = {
+				value = cocoa_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+coffee_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:coffee)"
+			}
+			
+			add = {
+				value = "default_price(goods:coffee)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+coffee_balance_2 = {
+			add = {
+				value = coffee_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+ivory_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:ivory)"
+			}
+			
+			add = {
+				value = "default_price(goods:ivory)"
+			} }
+	min = 0
+	multiply = 1.25
+}
+
+ivory_balance_2 = {
+			add = {
+				value = ivory_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+lumber_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:lumber)"
+			}
+			
+			add = {
+				value = "default_price(goods:lumber)"
+			} }
+	min = 0
+	multiply = 3.34
+}
+
+lumber_balance_2 = {
+			add = {
+				value = lumber_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+salt_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:salt)"
+			}
+			
+			add = {
+				value = "default_price(goods:salt)"
+			} }
+	min = 0
+	multiply = 1.25
+}
+
+salt_balance_2 = {
+			add = {
+				value = salt_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+medicaments_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:medicaments)"
+			}
+			
+			add = {
+				value = "default_price(goods:medicaments)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+medicaments_balance_2 = {
+			add = {
+				value = medicaments_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+gems_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:gems)"
+			}
+			
+			add = {
+				value = "default_price(goods:gems)"
+			} }
+	min = 0
+	multiply = 1.25
+}
+
+gems_balance_2 = {
+			add = {
+				value = gems_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+pearls_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:pearls)"
+			}
+			
+			add = {
+				value = "default_price(goods:pearls)"
+			} }
+	min = 0
+	multiply = 1.25
+}
+
+pearls_balance_2 = {
+			add = {
+				value = pearls_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+amber_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:amber)"
+			}
+			
+			add = {
+				value = "default_price(goods:amber)"
+			} }
+	min = 0
+	multiply = 1.25
+}
+
+amber_balance_2 = {
+			add = {
+				value = amber_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+wine_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:wine)"
+			}
+			
+			add = {
+				value = "default_price(goods:wine)"
+			} }
+	min = 0
+	multiply = 2.5
+}
+
+wine_balance_2 = {
+			add = {
+				value = wine_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+elephants_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:elephants)"
+			}
+			
+			add = {
+				value = "default_price(goods:elephants)"
+			} }
+	min = 0
+	multiply = 0.5
+}
+
+elephants_balance_2 = {
+			add = {
+				value = elephants_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+marble_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:marble)"
+			}
+			
+			add = {
+				value = "default_price(goods:marble)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+marble_balance_2 = {
+			add = {
+				value = marble_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+mercury_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:mercury)"
+			}
+			
+			add = {
+				value = "default_price(goods:mercury)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+mercury_balance_2 = {
+			add = {
+				value = mercury_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+saffron_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:saffron)"
+			}
+			
+			add = {
+				value = "default_price(goods:saffron)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+saffron_balance_2 = {
+			add = {
+				value = saffron_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+pepper_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:pepper)"
+			}
+			
+			add = {
+				value = "default_price(goods:pepper)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+pepper_balance_2 = {
+			add = {
+				value = pepper_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+cloves_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:cloves)"
+			}
+			
+			add = {
+				value = "default_price(goods:cloves)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+cloves_balance_2 = {
+			add = {
+				value = cloves_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+chili_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:chili)"
+			}
+			
+			add = {
+				value = "default_price(goods:chili)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+chili_balance_2 = {
+			add = {
+				value = chili_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+sugar_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:sugar)"
+			}
+			
+			add = {
+				value = "default_price(goods:sugar)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+sugar_balance_2 = {
+			add = {
+				value = sugar_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+tobacco_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:tobacco)"
+			}
+			
+			add = {
+				value = "default_price(goods:tobacco)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+tobacco_balance_2 = {
+			add = {
+				value = tobacco_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+porcelain_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:porcelain)"
+			}
+			
+			add = {
+				value = "default_price(goods:porcelain)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+porcelain_balance_2 = {
+			add = {
+				value = porcelain_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+firearms_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:firearms)"
+			}
+			
+			add = {
+				value = "default_price(goods:firearms)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+firearms_balance_2 = {
+			add = {
+				value = firearms_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+weaponry_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:weaponry)"
+			}
+			
+			add = {
+				value = "default_price(goods:weaponry)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+weaponry_balance_2 = {
+			add = {
+				value = weaponry_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+cloth_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:cloth)"
+			}
+			
+			add = {
+				value = "default_price(goods:cloth)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+cloth_balance_2 = {
+			add = {
+				value = cloth_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+fine_cloth_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:fine_cloth)"
+			}
+			
+			add = {
+				value = "default_price(goods:fine_cloth)"
+			} }
+	min = 0
+	multiply = 0.84
+}
+
+fine_cloth_balance_2 = {
+			add = {
+				value = fine_cloth_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+liquor_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:liquor)"
+			}
+			
+			add = {
+				value = "default_price(goods:liquor)"
+			} }
+	min = 0
+	multiply = 2
+}
+
+liquor_balance_2 = {
+			add = {
+				value = liquor_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+beer_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:beer)"
+			}
+			
+			add = {
+				value = "default_price(goods:beer)"
+			} }
+	min = 0
+	multiply = 2.5
+}
+
+beer_balance_2 = {
+			add = {
+				value = beer_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+paper_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:paper)"
+			}
+			
+			add = {
+				value = "default_price(goods:paper)"
+			} }
+	min = 0
+	multiply = 2.5
+}
+
+paper_balance_2 = {
+			add = {
+				value = paper_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+books_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:books)"
+			}
+			
+			add = {
+				value = "default_price(goods:books)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+books_balance_2 = {
+			add = {
+				value = books_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+jewelry_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:jewelry)"
+			}
+			
+			add = {
+				value = "default_price(goods:jewelry)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+jewelry_balance_2 = {
+			add = {
+				value = jewelry_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+tools_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:tools)"
+			}
+			
+			add = {
+				value = "default_price(goods:tools)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+tools_balance_2 = {
+			add = {
+				value = tools_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+masonry_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:masonry)"
+			}
+			
+			add = {
+				value = "default_price(goods:masonry)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+masonry_balance_2 = {
+			add = {
+				value = masonry_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+lacquerware_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:lacquerware)"
+			}
+			
+			add = {
+				value = "default_price(goods:lacquerware)"
+			} }
+	min = 0
+	multiply = 1
+}
+
+lacquerware_balance_2 = {
+			add = {
+				value = lacquerware_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+pottery_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:pottery)"
+			}
+			
+			add = {
+				value = "default_price(goods:pottery)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+pottery_balance_2 = {
+			add = {
+				value = pottery_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+furniture_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:furniture)"
+			}
+			
+			add = {
+				value = "default_price(goods:furniture)"
+			} }
+	min = 0
+	multiply = 1.67
+}
+
+furniture_balance_2 = {
+			add = {
+				value = furniture_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+wild_game_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:wild_game)"
+			}
+			
+			add = {
+				value = "default_price(goods:wild_game)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+wild_game_balance_2 = {
+			add = {
+				value = wild_game_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+fur_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:fur)"
+			}
+			
+			add = {
+				value = "default_price(goods:fur)"
+			} }
+	min = 0
+	multiply = 2.5
+}
+
+fur_balance_2 = {
+			add = {
+				value = fur_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+fish_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:fish)"
+			}
+			
+			add = {
+				value = "default_price(goods:fish)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+fish_balance_2 = {
+			add = {
+				value = fish_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+wheat_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:wheat)"
+			}
+			
+			add = {
+				value = "default_price(goods:wheat)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+wheat_balance_2 = {
+			add = {
+				value = wheat_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+maize_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:maize)"
+			}
+			
+			add = {
+				value = "default_price(goods:maize)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+maize_balance_2 = {
+			add = {
+				value = maize_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+rice_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:rice)"
+			}
+			
+			add = {
+				value = "default_price(goods:rice)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+rice_balance_2 = {
+			add = {
+				value = rice_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+millet_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:millet)"
+			}
+			
+			add = {
+				value = "default_price(goods:millet)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+millet_balance_2 = {
+			add = {
+				value = millet_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+legumes_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:legumes)"
+			}
+			
+			add = {
+				value = "default_price(goods:legumes)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+legumes_balance_2 = {
+			add = {
+				value = legumes_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+potato_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:potato)"
+			}
+			
+			add = {
+				value = "default_price(goods:potato)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+potato_balance_2 = {
+			add = {
+				value = potato_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+livestock_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:livestock)"
+			}
+			
+			add = {
+				value = "default_price(goods:livestock)"
+			} }
+	min = 0
+	multiply = 3.34
+}
+
+livestock_balance_2 = {
+			add = {
+				value = livestock_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+olives_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:olives)"
+			}
+			
+			add = {
+				value = "default_price(goods:olives)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+olives_balance_2 = {
+			add = {
+				value = olives_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+fruit_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:fruit)"
+			}
+			
+			add = {
+				value = "default_price(goods:fruit)"
+			} }
+	min = 0
+	multiply = 5
+}
+
+fruit_balance_2 = {
+			add = {
+				value = fruit_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
+
+beeswax_balance = {
+scope:market = {
+			subtract = {
+				value = "market_price(goods:beeswax)"
+			}
+			
+			add = {
+				value = "default_price(goods:beeswax)"
+			} }
+	min = 0
+	multiply = 2.5
+}
+
+beeswax_balance_2 = {
+			add = {
+				value = beeswax_balance
+			}
+			
+			add = {
+				value = 1
+			}
+}
