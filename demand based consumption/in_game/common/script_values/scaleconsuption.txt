@@ -1,14 +1,14 @@
 horses_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:horses)"
+				value = "location.market.market_price(goods:horses)"
 			}
 			
 			add = {
 				value = "default_price(goods:horses)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 horses_balance_2 = {
@@ -22,16 +22,16 @@ horses_balance_2 = {
 }
 
 coal_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:coal)"
+				value = "location.market.market_price(goods:coal)"
 			}
 			
 			add = {
 				value = "default_price(goods:coal)"
-			} }
-	min = 0
-	multiply = 2.5
+			} 
+	min = -0.5
+	multiply = 5
 }
 
 coal_balance_2 = {
@@ -45,16 +45,16 @@ coal_balance_2 = {
 }
 
 goods_gold_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:goods_gold)"
+				value = "location.market.market_price(goods:goods_gold)"
 			}
 			
 			add = {
 				value = "default_price(goods:goods_gold)"
-			} }
-	min = 0
-	multiply = 0.5
+			} 
+	min = -0.5
+	multiply = 1
 }
 
 goods_gold_balance_2 = {
@@ -68,16 +68,16 @@ goods_gold_balance_2 = {
 }
 
 silver_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:silver)"
+				value = "location.market.market_price(goods:silver)"
 			}
 			
 			add = {
 				value = "default_price(goods:silver)"
-			} }
-	min = 0
-	multiply = 0.625
+			} 
+	min = -0.5
+	multiply = 1.25
 }
 
 silver_balance_2 = {
@@ -91,16 +91,16 @@ silver_balance_2 = {
 }
 
 incense_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:incense)"
+				value = "location.market.market_price(goods:incense)"
 			}
 			
 			add = {
 				value = "default_price(goods:incense)"
-			} }
-	min = 0
-	multiply = 2
+			} 
+	min = -0.5
+	multiply = 4
 }
 
 incense_balance_2 = {
@@ -114,16 +114,16 @@ incense_balance_2 = {
 }
 
 tea_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:tea)"
+				value = "location.market.market_price(goods:tea)"
 			}
 			
 			add = {
 				value = "default_price(goods:tea)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 tea_balance_2 = {
@@ -137,16 +137,16 @@ tea_balance_2 = {
 }
 
 cocoa_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:cocoa)"
+				value = "location.market.market_price(goods:cocoa)"
 			}
 			
 			add = {
 				value = "default_price(goods:cocoa)"
-			} }
-	min = 0
-	multiply = 1.25
+			} 
+	min = -0.5
+	multiply = 2.5
 }
 
 cocoa_balance_2 = {
@@ -160,16 +160,16 @@ cocoa_balance_2 = {
 }
 
 coffee_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:coffee)"
+				value = "location.market.market_price(goods:coffee)"
 			}
 			
 			add = {
 				value = "default_price(goods:coffee)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 coffee_balance_2 = {
@@ -183,16 +183,16 @@ coffee_balance_2 = {
 }
 
 ivory_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:ivory)"
+				value = "location.market.market_price(goods:ivory)"
 			}
 			
 			add = {
 				value = "default_price(goods:ivory)"
-			} }
-	min = 0
-	multiply = 1.25
+			} 
+	min = -0.5
+	multiply = 2.5
 }
 
 ivory_balance_2 = {
@@ -206,16 +206,16 @@ ivory_balance_2 = {
 }
 
 lumber_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:lumber)"
+				value = "location.market.market_price(goods:lumber)"
 			}
 			
 			add = {
 				value = "default_price(goods:lumber)"
-			} }
-	min = 0
-	multiply = 3.34
+			} 
+	min = -0.5
+	multiply = 6.68
 }
 
 lumber_balance_2 = {
@@ -229,16 +229,16 @@ lumber_balance_2 = {
 }
 
 salt_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:salt)"
+				value = "location.market.market_price(goods:salt)"
 			}
 			
 			add = {
 				value = "default_price(goods:salt)"
-			} }
-	min = 0
-	multiply = 1.25
+			} 
+	min = -0.5
+	multiply = 2.5
 }
 
 salt_balance_2 = {
@@ -252,16 +252,16 @@ salt_balance_2 = {
 }
 
 medicaments_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:medicaments)"
+				value = "location.market.market_price(goods:medicaments)"
 			}
 			
 			add = {
 				value = "default_price(goods:medicaments)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 medicaments_balance_2 = {
@@ -275,16 +275,16 @@ medicaments_balance_2 = {
 }
 
 gems_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:gems)"
+				value = "location.market.market_price(goods:gems)"
 			}
 			
 			add = {
 				value = "default_price(goods:gems)"
-			} }
-	min = 0
-	multiply = 1.25
+			} 
+	min = -0.5
+	multiply = 2.5
 }
 
 gems_balance_2 = {
@@ -298,16 +298,16 @@ gems_balance_2 = {
 }
 
 pearls_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:pearls)"
+				value = "location.market.market_price(goods:pearls)"
 			}
 			
 			add = {
 				value = "default_price(goods:pearls)"
-			} }
-	min = 0
-	multiply = 1.25
+			} 
+	min = -0.5
+	multiply = 2.5
 }
 
 pearls_balance_2 = {
@@ -321,16 +321,16 @@ pearls_balance_2 = {
 }
 
 amber_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:amber)"
+				value = "location.market.market_price(goods:amber)"
 			}
 			
 			add = {
 				value = "default_price(goods:amber)"
-			} }
-	min = 0
-	multiply = 1.25
+			} 
+	min = -0.5
+	multiply = 2.5
 }
 
 amber_balance_2 = {
@@ -344,16 +344,16 @@ amber_balance_2 = {
 }
 
 wine_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:wine)"
+				value = "location.market.market_price(goods:wine)"
 			}
 			
 			add = {
 				value = "default_price(goods:wine)"
-			} }
-	min = 0
-	multiply = 2.5
+			} 
+	min = -0.5
+	multiply = 5
 }
 
 wine_balance_2 = {
@@ -367,16 +367,16 @@ wine_balance_2 = {
 }
 
 elephants_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:elephants)"
+				value = "location.market.market_price(goods:elephants)"
 			}
 			
 			add = {
 				value = "default_price(goods:elephants)"
-			} }
-	min = 0
-	multiply = 0.5
+			} 
+	min = -0.5
+	multiply = 1
 }
 
 elephants_balance_2 = {
@@ -390,16 +390,16 @@ elephants_balance_2 = {
 }
 
 marble_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:marble)"
+				value = "location.market.market_price(goods:marble)"
 			}
 			
 			add = {
 				value = "default_price(goods:marble)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 marble_balance_2 = {
@@ -413,16 +413,16 @@ marble_balance_2 = {
 }
 
 mercury_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:mercury)"
+				value = "location.market.market_price(goods:mercury)"
 			}
 			
 			add = {
 				value = "default_price(goods:mercury)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 mercury_balance_2 = {
@@ -436,16 +436,16 @@ mercury_balance_2 = {
 }
 
 saffron_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:saffron)"
+				value = "location.market.market_price(goods:saffron)"
 			}
 			
 			add = {
 				value = "default_price(goods:saffron)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 saffron_balance_2 = {
@@ -459,16 +459,16 @@ saffron_balance_2 = {
 }
 
 pepper_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:pepper)"
+				value = "location.market.market_price(goods:pepper)"
 			}
 			
 			add = {
 				value = "default_price(goods:pepper)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 pepper_balance_2 = {
@@ -482,16 +482,16 @@ pepper_balance_2 = {
 }
 
 cloves_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:cloves)"
+				value = "location.market.market_price(goods:cloves)"
 			}
 			
 			add = {
 				value = "default_price(goods:cloves)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 cloves_balance_2 = {
@@ -505,16 +505,16 @@ cloves_balance_2 = {
 }
 
 chili_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:chili)"
+				value = "location.market.market_price(goods:chili)"
 			}
 			
 			add = {
 				value = "default_price(goods:chili)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 chili_balance_2 = {
@@ -528,16 +528,16 @@ chili_balance_2 = {
 }
 
 sugar_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:sugar)"
+				value = "location.market.market_price(goods:sugar)"
 			}
 			
 			add = {
 				value = "default_price(goods:sugar)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 sugar_balance_2 = {
@@ -551,16 +551,16 @@ sugar_balance_2 = {
 }
 
 tobacco_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:tobacco)"
+				value = "location.market.market_price(goods:tobacco)"
 			}
 			
 			add = {
 				value = "default_price(goods:tobacco)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 tobacco_balance_2 = {
@@ -574,16 +574,16 @@ tobacco_balance_2 = {
 }
 
 porcelain_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:porcelain)"
+				value = "location.market.market_price(goods:porcelain)"
 			}
 			
 			add = {
 				value = "default_price(goods:porcelain)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 porcelain_balance_2 = {
@@ -597,16 +597,16 @@ porcelain_balance_2 = {
 }
 
 firearms_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:firearms)"
+				value = "location.market.market_price(goods:firearms)"
 			}
 			
 			add = {
 				value = "default_price(goods:firearms)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 firearms_balance_2 = {
@@ -620,16 +620,16 @@ firearms_balance_2 = {
 }
 
 weaponry_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:weaponry)"
+				value = "location.market.market_price(goods:weaponry)"
 			}
 			
 			add = {
 				value = "default_price(goods:weaponry)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 weaponry_balance_2 = {
@@ -643,16 +643,16 @@ weaponry_balance_2 = {
 }
 
 cloth_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:cloth)"
+				value = "location.market.market_price(goods:cloth)"
 			}
 			
 			add = {
 				value = "default_price(goods:cloth)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 cloth_balance_2 = {
@@ -666,16 +666,16 @@ cloth_balance_2 = {
 }
 
 fine_cloth_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:fine_cloth)"
+				value = "location.market.market_price(goods:fine_cloth)"
 			}
 			
 			add = {
 				value = "default_price(goods:fine_cloth)"
-			} }
-	min = 0
-	multiply = 0.84
+			} 
+	min = -0.5
+	multiply = 1.68
 }
 
 fine_cloth_balance_2 = {
@@ -689,16 +689,16 @@ fine_cloth_balance_2 = {
 }
 
 liquor_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:liquor)"
+				value = "location.market.market_price(goods:liquor)"
 			}
 			
 			add = {
 				value = "default_price(goods:liquor)"
-			} }
-	min = 0
-	multiply = 2
+			} 
+	min = -0.5
+	multiply = 4
 }
 
 liquor_balance_2 = {
@@ -712,16 +712,16 @@ liquor_balance_2 = {
 }
 
 beer_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:beer)"
+				value = "location.market.market_price(goods:beer)"
 			}
 			
 			add = {
 				value = "default_price(goods:beer)"
-			} }
-	min = 0
-	multiply = 2.5
+			} 
+	min = -0.5
+	multiply = 5
 }
 
 beer_balance_2 = {
@@ -735,16 +735,16 @@ beer_balance_2 = {
 }
 
 paper_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:paper)"
+				value = "location.market.market_price(goods:paper)"
 			}
 			
 			add = {
 				value = "default_price(goods:paper)"
-			} }
-	min = 0
-	multiply = 2.5
+			} 
+	min = -0.5
+	multiply = 5
 }
 
 paper_balance_2 = {
@@ -758,16 +758,16 @@ paper_balance_2 = {
 }
 
 books_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:books)"
+				value = "location.market.market_price(goods:books)"
 			}
 			
 			add = {
 				value = "default_price(goods:books)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 books_balance_2 = {
@@ -781,16 +781,16 @@ books_balance_2 = {
 }
 
 jewelry_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:jewelry)"
+				value = "location.market.market_price(goods:jewelry)"
 			}
 			
 			add = {
 				value = "default_price(goods:jewelry)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 jewelry_balance_2 = {
@@ -804,16 +804,16 @@ jewelry_balance_2 = {
 }
 
 tools_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:tools)"
+				value = "location.market.market_price(goods:tools)"
 			}
 			
 			add = {
 				value = "default_price(goods:tools)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 tools_balance_2 = {
@@ -827,16 +827,16 @@ tools_balance_2 = {
 }
 
 masonry_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:masonry)"
+				value = "location.market.market_price(goods:masonry)"
 			}
 			
 			add = {
 				value = "default_price(goods:masonry)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 masonry_balance_2 = {
@@ -850,16 +850,16 @@ masonry_balance_2 = {
 }
 
 lacquerware_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:lacquerware)"
+				value = "location.market.market_price(goods:lacquerware)"
 			}
 			
 			add = {
 				value = "default_price(goods:lacquerware)"
-			} }
-	min = 0
-	multiply = 1
+			} 
+	min = -0.5
+	multiply = 2
 }
 
 lacquerware_balance_2 = {
@@ -873,16 +873,16 @@ lacquerware_balance_2 = {
 }
 
 pottery_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:pottery)"
+				value = "location.market.market_price(goods:pottery)"
 			}
 			
 			add = {
 				value = "default_price(goods:pottery)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 pottery_balance_2 = {
@@ -896,16 +896,16 @@ pottery_balance_2 = {
 }
 
 furniture_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:furniture)"
+				value = "location.market.market_price(goods:furniture)"
 			}
 			
 			add = {
 				value = "default_price(goods:furniture)"
-			} }
-	min = 0
-	multiply = 1.67
+			} 
+	min = -0.5
+	multiply = 3.34
 }
 
 furniture_balance_2 = {
@@ -919,16 +919,16 @@ furniture_balance_2 = {
 }
 
 wild_game_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:wild_game)"
+				value = "location.market.market_price(goods:wild_game)"
 			}
 			
 			add = {
 				value = "default_price(goods:wild_game)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 wild_game_balance_2 = {
@@ -942,16 +942,16 @@ wild_game_balance_2 = {
 }
 
 fur_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:fur)"
+				value = "location.market.market_price(goods:fur)"
 			}
 			
 			add = {
 				value = "default_price(goods:fur)"
-			} }
-	min = 0
-	multiply = 2.5
+			} 
+	min = -0.5
+	multiply = 5
 }
 
 fur_balance_2 = {
@@ -965,16 +965,16 @@ fur_balance_2 = {
 }
 
 fish_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:fish)"
+				value = "location.market.market_price(goods:fish)"
 			}
 			
 			add = {
 				value = "default_price(goods:fish)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 fish_balance_2 = {
@@ -988,16 +988,16 @@ fish_balance_2 = {
 }
 
 wheat_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:wheat)"
+				value = "location.market.market_price(goods:wheat)"
 			}
 			
 			add = {
 				value = "default_price(goods:wheat)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 wheat_balance_2 = {
@@ -1011,16 +1011,16 @@ wheat_balance_2 = {
 }
 
 maize_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:maize)"
+				value = "location.market.market_price(goods:maize)"
 			}
 			
 			add = {
 				value = "default_price(goods:maize)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 maize_balance_2 = {
@@ -1034,16 +1034,16 @@ maize_balance_2 = {
 }
 
 rice_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:rice)"
+				value = "location.market.market_price(goods:rice)"
 			}
 			
 			add = {
 				value = "default_price(goods:rice)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 rice_balance_2 = {
@@ -1057,16 +1057,16 @@ rice_balance_2 = {
 }
 
 millet_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:millet)"
+				value = "location.market.market_price(goods:millet)"
 			}
 			
 			add = {
 				value = "default_price(goods:millet)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 millet_balance_2 = {
@@ -1080,16 +1080,16 @@ millet_balance_2 = {
 }
 
 legumes_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:legumes)"
+				value = "location.market.market_price(goods:legumes)"
 			}
 			
 			add = {
 				value = "default_price(goods:legumes)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 legumes_balance_2 = {
@@ -1103,16 +1103,16 @@ legumes_balance_2 = {
 }
 
 potato_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:potato)"
+				value = "location.market.market_price(goods:potato)"
 			}
 			
 			add = {
 				value = "default_price(goods:potato)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 potato_balance_2 = {
@@ -1126,16 +1126,16 @@ potato_balance_2 = {
 }
 
 livestock_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:livestock)"
+				value = "location.market.market_price(goods:livestock)"
 			}
 			
 			add = {
 				value = "default_price(goods:livestock)"
-			} }
-	min = 0
-	multiply = 3.34
+			} 
+	min = -0.5
+	multiply = 6.68
 }
 
 livestock_balance_2 = {
@@ -1149,16 +1149,16 @@ livestock_balance_2 = {
 }
 
 olives_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:olives)"
+				value = "location.market.market_price(goods:olives)"
 			}
 			
 			add = {
 				value = "default_price(goods:olives)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 olives_balance_2 = {
@@ -1172,16 +1172,16 @@ olives_balance_2 = {
 }
 
 fruit_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:fruit)"
+				value = "location.market.market_price(goods:fruit)"
 			}
 			
 			add = {
 				value = "default_price(goods:fruit)"
-			} }
-	min = 0
-	multiply = 5
+			} 
+	min = -0.5
+	multiply = 10
 }
 
 fruit_balance_2 = {
@@ -1195,16 +1195,16 @@ fruit_balance_2 = {
 }
 
 beeswax_balance = {
-scope:market = {
+
 			subtract = {
-				value = "market_price(goods:beeswax)"
+				value = "location.market.market_price(goods:beeswax)"
 			}
 			
 			add = {
 				value = "default_price(goods:beeswax)"
-			} }
-	min = 0
-	multiply = 2.5
+			} 
+	min = -0.5
+	multiply = 5
 }
 
 beeswax_balance_2 = {
