@@ -1,586 +1,480 @@
 horses_balance = {
 			value = "location.market.goods_supply_in_market(goods:horses)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:horses)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:horses)"
 }
 horses_balance_2 = {
 			value = horses_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 
 coal_balance = {
 			value = "location.market.goods_supply_in_market(goods:coal)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:coal)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:coal)"
 }
 coal_balance_2 = {
 			value = coal_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 goods_gold_balance = {
 			value = "location.market.goods_supply_in_market(goods:goods_gold)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:goods_gold)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:goods_gold)"
 }
 
 goods_gold_balance_2 = {
 			value = goods_gold_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 silver_balance = {
 			value = "location.market.goods_supply_in_market(goods:silver)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:silver)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:silver)"
 }
 silver_balance_2 = {
 			value = silver_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 incense_balance = {
 			value = "location.market.goods_supply_in_market(goods:incense)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:incense)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:incense)"
 }
 incense_balance_2 = {
 			value = incense_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 tea_balance = {
 			value = "location.market.goods_supply_in_market(goods:tea)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:tea)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:tea)"
 }
 tea_balance_2 = {
 			value = tea_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 cocoa_balance = {
 			value = "location.market.goods_supply_in_market(goods:cocoa)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:cocoa)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:cocoa)"
 }
 cocoa_balance_2 = {
 			value = cocoa_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 coffee_balance = {
 			value = "location.market.goods_supply_in_market(goods:coffee)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:coffee)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:coffee)"
 }
 
 coffee_balance_2 = {
 			value = coffee_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 ivory_balance = {
 			value = "location.market.goods_supply_in_market(goods:ivory)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:ivory)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:ivory)"
 }
 ivory_balance_2 = {
 			value = ivory_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 lumber_balance = {
 			value = "location.market.goods_supply_in_market(goods:lumber)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:lumber)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:lumber)"
 }
 lumber_balance_2 = {
 			value = lumber_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 salt_balance = {
 			value = "location.market.goods_supply_in_market(goods:salt)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:salt)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:salt)"
 }
 salt_balance_2 = {
 			value = salt_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 medicaments_balance = {
 			value = "location.market.goods_supply_in_market(goods:medicaments)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:medicaments)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:medicaments)"
 }
 medicaments_balance_2 = {
 			value = medicaments_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 gems_balance = {
 			value = "location.market.goods_supply_in_market(goods:gems)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:gems)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:gems)"
 }
 gems_balance_2 = {
 			value = gems_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 pearls_balance = {
 			value = "location.market.goods_supply_in_market(goods:pearls)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:pearls)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:pearls)"
 }
 pearls_balance_2 = {
 			value = pearls_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 amber_balance = {
 			value = "location.market.goods_supply_in_market(goods:amber)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:amber)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:amber)"
 }
 amber_balance_2 = {
 			value = amber_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 wine_balance = {
 			value = "location.market.goods_supply_in_market(goods:wine)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:wine)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:wine)"
 }
 wine_balance_2 = {
 			value = wine_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 elephants_balance = {
 			value = "location.market.goods_supply_in_market(goods:elephants)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:elephants)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:elephants)"
 }
 elephants_balance_2 = {
 			value = elephants_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 marble_balance = {
 			value = "location.market.goods_supply_in_market(goods:marble)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:marble)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:marble)"
 }
 marble_balance_2 = {
 			value = marble_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 mercury_balance = {
 			value = "location.market.goods_supply_in_market(goods:mercury)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:mercury)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:mercury)"
 }
 mercury_balance_2 = {
 			value = mercury_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 saffron_balance = {
 			value = "location.market.goods_supply_in_market(goods:saffron)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:saffron)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:saffron)"
 }
 saffron_balance_2 = {
 			value = saffron_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 pepper_balance = {
 			value = "location.market.goods_supply_in_market(goods:pepper)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:pepper)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:pepper)"
 }
 pepper_balance_2 = {
 			value = pepper_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 cloves_balance = {
 			value = "location.market.goods_supply_in_market(goods:cloves)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:cloves)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:cloves)"
 }
 cloves_balance_2 = {
 			value = cloves_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 chili_balance = {
 			value = "location.market.goods_supply_in_market(goods:chili)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:chili)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:chili)"
 }
 chili_balance_2 = {
 			value = chili_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 sugar_balance = {
 			value = "location.market.goods_supply_in_market(goods:sugar)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:sugar)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:sugar)"
 }
 sugar_balance_2 = {
 			value = sugar_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 tobacco_balance = {
 			value = "location.market.goods_supply_in_market(goods:tobacco)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:tobacco)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:tobacco)"
 }
 tobacco_balance_2 = {
 			value = tobacco_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 porcelain_balance = {
 			value = "location.market.goods_supply_in_market(goods:porcelain)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:porcelain)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:porcelain)"
 }
 porcelain_balance_2 = {
 			value = porcelain_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 firearms_balance = {
 			value = "location.market.goods_supply_in_market(goods:firearms)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:firearms)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:firearms)"
 }
 firearms_balance_2 = {
 			value = firearms_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 weaponry_balance = {
 			value = "location.market.goods_supply_in_market(goods:weaponry)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:weaponry)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:weaponry)"
 }
 weaponry_balance_2 = {
 			value = weaponry_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 cloth_balance = {
 			value = "location.market.goods_supply_in_market(goods:cloth)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:cloth)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:cloth)"
 }
 cloth_balance_2 = {
 			value = cloth_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 fine_cloth_balance = {
 			value = "location.market.goods_supply_in_market(goods:fine_cloth)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:fine_cloth)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:fine_cloth)"
 }
 fine_cloth_balance_2 = {
 			value = fine_cloth_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 liquor_balance = {
 			value = "location.market.goods_supply_in_market(goods:liquor)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:liquor)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:liquor)"
 }
 liquor_balance_2 = {
 			value = liquor_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 beer_balance = {
 			value = "location.market.goods_supply_in_market(goods:beer)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:beer)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:beer)"
 }
 beer_balance_2 = {
 			value = beer_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 paper_balance = {
 			value = "location.market.goods_supply_in_market(goods:paper)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:paper)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:paper)"
 }
 paper_balance_2 = {
 			value = paper_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 books_balance = {
 			value = "location.market.goods_supply_in_market(goods:books)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:books)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:books)"
 }
 books_balance_2 = {
 			value = books_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 jewelry_balance = {
 			value = "location.market.goods_supply_in_market(goods:jewelry)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:jewelry)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:jewelry)"
 }
 jewelry_balance_2 = {
 			value = jewelry_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 tools_balance = {
 			value = "location.market.goods_supply_in_market(goods:tools)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:tools)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:tools)"
 }
 tools_balance_2 = {
 			value = tools_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 masonry_balance = {
 			value = "location.market.goods_supply_in_market(goods:masonry)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:masonry)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:masonry)"
 }
 masonry_balance_2 = {
 			value = masonry_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 lacquerware_balance = {
 			value = "location.market.goods_supply_in_market(goods:lacquerware)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:lacquerware)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:lacquerware)"
 }
 lacquerware_balance_2 = {
 			value = lacquerware_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 pottery_balance = {
 			value = "location.market.goods_supply_in_market(goods:pottery)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:pottery)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:pottery)"
 }
 pottery_balance_2 = {
 			value = pottery_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 furniture_balance = {
 			value = "location.market.goods_supply_in_market(goods:furniture)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:furniture)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:furniture)"
 }
 furniture_balance_2 = {
 			value = furniture_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 wild_game_balance = {
 			value = "location.market.goods_supply_in_market(goods:wild_game)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:wild_game)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:wild_game)"
 }
 wild_game_balance_2 = {
 			value = wild_game_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 fur_balance = {
 			value = "location.market.goods_supply_in_market(goods:fur)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:fur)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:fur)"
 }
 fur_balance_2 = {
 			value = fur_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 fish_balance = {
 			value = "location.market.goods_supply_in_market(goods:fish)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:fish)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:fish)"
 }
 fish_balance_2 = {
 			value = fish_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 wheat_balance = {
 			value = "location.market.goods_supply_in_market(goods:wheat)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:wheat)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:wheat)"
 }
 wheat_balance_2 = {
 			value = wheat_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 maize_balance = {
 			value = "location.market.goods_supply_in_market(goods:maize)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:maize)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:maize)"
 }
 maize_balance_2 = {
 			value = maize_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 rice_balance = {
 			value = "location.market.goods_supply_in_market(goods:rice)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:rice)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:rice)"
 }
 rice_balance_2 = {
 			value = rice_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 millet_balance = {
 			value = "location.market.goods_supply_in_market(goods:millet)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:millet)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:millet)"
 }
 millet_balance_2 = {
 			value = millet_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 legumes_balance = {
 			value = "location.market.goods_supply_in_market(goods:legumes)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:legumes)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:legumes)"
 }
 legumes_balance_2 = {
 			value = legumes_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 potato_balance = {
 			value = "location.market.goods_supply_in_market(goods:potato)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:potato)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:potato)"
 }
 potato_balance_2 = {
 			value = potato_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 livestock_balance = {
 			value = "location.market.goods_supply_in_market(goods:livestock)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:livestock)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:livestock)"
 }
 livestock_balance_2 = {
 			value = livestock_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 olives_balance = {
 			value = "location.market.goods_supply_in_market(goods:olives)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:olives)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:olives)"
 }
 olives_balance_2 = {
 			value = olives_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 fruit_balance = {
 			value = "location.market.goods_supply_in_market(goods:fruit)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:fruit)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:fruit)"
 }
 fruit_balance_2 = {
 			value = fruit_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
 beeswax_balance = {
 			value = "location.market.goods_supply_in_market(goods:beeswax)"
-			subtract = {
-				value = "location.market.goods_demand_in_market(goods:beeswax)"
-			}
+			subtract = "location.market.goods_demand_in_market(goods:beeswax)"
 }
 beeswax_balance_2 = {
 			value = beeswax_balance
-			min = 1
 			multiply = 0.1
+			min = 0.5
 }
